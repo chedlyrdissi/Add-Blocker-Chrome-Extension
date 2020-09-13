@@ -1,0 +1,15 @@
+{
+	"name": "Add blocker",
+	"version": "1.0",
+	"description": "Building an extention to remove add pop-ups and add content",
+	"permissions": ["storage"],
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+    	"default_popup": "popup.html",
+    	"default_icon": "blocker-icon.png"
+    },
+	"manifest_version": 2
+}
